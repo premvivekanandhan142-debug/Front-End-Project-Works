@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reg Form</title>
+</head>
+<body>
+    <center>
+    <form action="Student Reg form output.html" method="get" autocomplete="on" target="_blank">
+        <table>
+          <tr>
+                <th colspan="3 span">
+                    <h2>Student Admission Reg Form</h2>
+                </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="name">Name</label>
+                    </th>
+                    <td><input id="name" type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="Age">Age</label>
+                    </th>
+                    <td>
+                        <input id="Age" type="number" placeholder="Enter Your Age" min="17">
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input id="email" type="email" placeholder="Enter Your Email"></td>
+                </tr>
+              <tr>
+                <th>
+                   <label for="gender" >Gender</label> 
+                </th>
+                <td style="width: 40%;"><input id="gender" type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female</td>
+              </tr>
+              <tr>
+                <th>
+                    <label for="DOB" >DOB</label>
+                </th>
+                <td>
+                    <input id="DOB" type="date" value="05-10-2026">
+                </td>
+              </tr>
+              <tr>
+                <th><label for="Phone" >Phone Number</label></th>
+                <td>
+                    <input id="Phone" type="tel" maxlength="10" placeholder="Enter Your Mobile Number" >
+                </td>
+              </tr>
+              <tr>
+                <th><label for="Course">Course</label></th>
+                <td>
+                    <select id="Course">
+                        <optgroup label="Engineering">
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="AI&DS">AI&DS</option>
+                        <option value="ECE">ECE</option>
+                        <optgroup label="Arts"></optgroup>
+                        </optgroup>
+                        <optgroup>
+                        <option value="B.SC(CS)">B.SC(CS)</option>
+                        <option value="M.SC(CS)">M.SC(CS)</option>
+                        </optgroup>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <th><label for="Student">Student photo</label></th>
+                <td>
+                    <input id="Student" type="file">
+                </td>
+              </tr>
+              <tr>
+                <th><label for="Education">Student Mode Of Education</label></th>
+                <td>
+                    <input id="Education " type="checkbox"> Bus <input type="checkbox" checked>hostel
+                </td>
+              </tr>
+              <tr>
+                <th>
+                    <label for="Color">Color</label>
+                </th>
+                <td>
+                    <input id="Color" type="color" value="green">
+                </td>
+              </tr>
+              <tr>
+                <th>
+                    <label for="Ratings">Clg Ratings</label>
+                </th>
+                <td>
+                    <input type="range" min="0" max="5" value="0" oninput="this.nextElementSibling.value=this.value"><output></output>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                    <label for="label">Previous School Url:</label>
+                </th>
+                <td>
+                    <input type="url" placeholder="enter your url">
+                </td>
+              </tr>
+              <tr>
+                <th>
+                    <label for="feedback">Student Feedback:</label>
+                </th>
+                <td>
+                    <textarea cols="38" rows="4" minlength="5" maxlength="30" placeholder="enter your feedback"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                    <input type="submit" title="click submit button your form wes submited" accesskey="s">
+                </th>
+                <td>
+                <input type="reset">
+                </td>
+              </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
